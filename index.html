@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Nicolas Garcia</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/CV-ico.ico">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />     
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="parte_superior">
+            <div class="texto_perfil">
+                <div class="foto">
+                    <img src="Imagenes/Foto perfil.jpg" alt="Foto de Perfil">  
+                </div>
+                <h2>Nicolas Garcia<br><span>Arquitecto</span></h2>
+            </div>    
+        </div>
+        
+        
+        <div class="parte_inferior">
+            <div class="Informacion">
+                <h2>Informacion Personal</h2>
+                    <h3>Datos de Contacto</h3>
+                    <a href="https://goo.gl/maps/wxkJuimuYNa7tBxn7"> <p>Av. Colon 1638</p></a>
+                    <p>nicolas.garcia@gmail.com</p>
+                    <p>(351) 5082735</p>
+                    <h3>Fecha/Lugar de nacimiento</h3>
+                    <p>04/06/1995</p>
+                    <p>Cordoba capital</p>
+                    <h3>Nacionalidad</h3>
+                    <p>Argentino</p>
+                    <h2>Experiencia</h2>
+                    <p>
+                        Como arquitecto, he tenido la oportunidad de trabajar en una amplia variedad de proyectos en diferentes etapas, desde el diseño 
+                        conceptual hasta la supervisión de la construcción. He sido parte de equipos multidisciplinarios, lo que me ha permitido desarrollar 
+                        habilidades en la comunicación efectiva y colaboración en equipo. Además, he trabajado en proyectos con restricciones presupuestarias 
+                        y de tiempo, lo que me ha enseñado a ser eficiente en la gestión de recursos y a tomar decisiones rápidas y efectivas. Soy apasionado 
+                        por el diseño sostenible y me he especializado en implementar estrategias de construcción ecológica en mis proyectos. En mi experiencia, 
+                        he demostrado habilidades en la resolución de problemas, toma de decisiones y liderazgo, lo que me ha permitido completar exitosamente 
+                        proyectos de gran envergadura. Estoy emocionado de continuar creciendo profesionalmente y aplicar mi experiencia en futuros proyectos.
+                    </p>
+                    <h2>Habilidades</h2>
+                    <p>
+                        Como arquitecto, se requieren habilidades específicas que me permiten llevar a cabo proyectos exitosos. En primer lugar, tengo 
+                        habilidades de diseño, las cuales me permiten visualizar y crear espacios funcionales y estéticamente atractivos. También tengo 
+                        habilidades de comunicación para poder colaborar eficazmente con clientes y miembros del equipo de trabajo. Además, tengo 
+                        habilidades técnicas, como el conocimiento de software de diseño y conocimientos de construcción para poder crear proyectos 
+                        estructuralmente sólidos. También tengo habilidades de liderazgo, que me permiten guiar y motivar a mi equipo hacia la consecución 
+                        de objetivos. Finalmente, tengo habilidades de resolución de problemas, lo que me permite encontrar soluciones efectivas a los 
+                        desafíos que puedan surgir durante el proceso de diseño y construcción.
+                    </p>
+                    
+                
+            </div>
+
+
+        
+            
+                <div>
+                  <h3>Nivel de Ingles</h3>
+                  <progress value="80" max="100" id="ingles"></progress>
+                </div>
+                <div>
+                  <h3>Liderazgo</h3>
+                  <progress value="50" max="100" id="liderazgo"></progress>
+                </div>
+                <div>
+                  <h3>Manejo de AutoCAD</h3>
+                  <progress value="70" max="100" id="autocad"></progress>
+                </div>
+              
+                <script>
+                  var inglesBar = document.getElementById("ingles");
+                  var liderazgoBar = document.getElementById("liderazgo");
+                  var autocadBar = document.getElementById("autocad");
+              
+                  var ingles = 70;
+                  var liderazgo = 60;
+                  var autocad = 90;
+              
+                  inglesBar.value = ingles;
+                  liderazgoBar.value = liderazgo;
+                  autocadBar.value = autocad;
+                </script>
+             
+              
+
+
+
+
+        </div>
+    </div>
+
     
 </body>
 </html>
